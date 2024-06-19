@@ -1,0 +1,14 @@
+.ip-display {
+    padding: 10px;
+  }
+  
+  .ip-display h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .ip-display p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
