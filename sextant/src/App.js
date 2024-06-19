@@ -9,11 +9,11 @@ function App() {
     <div className="App">
       <Banner />
       <main className="main-content">
-      <Exhibit title="IPv4 Address">
+      <Exhibit title="IP Address">
           <DisplayIP type="IPv4" />
         </Exhibit>
-        <Exhibit title="IPv6 Address">
-          <DisplayIP type="IPv6" />
+        <Exhibit title="Latency">
+          
         </Exhibit>
       </main>
     </div>
