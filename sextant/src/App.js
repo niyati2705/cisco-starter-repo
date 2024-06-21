@@ -10,10 +10,13 @@ function App() {
     <div className="App">
       <Banner />
       <main className="main-content">
-      <Exhibit title="IP Address">
+      <Exhibit title="IPv4 Address">
           <DisplayIP type="IPv4" />
         </Exhibit>
-        <Latency title="Latency">
+        <Exhibit title="IPv6 Address">
+            <DisplayIP type="IPv6" />
+        </Exhibit>
+      <Latency title="Latency">
           
         </Latency>
       </main>

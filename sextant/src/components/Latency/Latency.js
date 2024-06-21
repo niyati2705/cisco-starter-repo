@@ -33,9 +33,9 @@ const Latency = () => {
   }, []); // Empty dependency array ensures this effect runs only once
 
   return (
-    <div>
-      <h2>Packet Latency</h2>
-      <div>
+    <div className="latency-container">
+      <h2 className="latency-title">Packet Latency</h2>
+      <div className="latency-value">
         {latency !== null ? (
           <p>Current Latency: {latency} milliseconds</p>
         ) : (
